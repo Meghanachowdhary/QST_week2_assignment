@@ -1,0 +1,40 @@
+Using device: cpu
+
+--- Generating Datasets ---
+Generating 1000 density matrices...
+Generating 200 density matrices...
+Generating 500 density matrices...
+
+--- Starting Training (20 epochs) ---
+Epoch 1: Loss 0.1823 | Val Fidelity 0.7024
+Epoch 2: Loss 0.1679 | Val Fidelity 0.7022
+Epoch 3: Loss 0.1643 | Val Fidelity 0.7020
+Epoch 4: Loss 0.1650 | Val Fidelity 0.7056
+Epoch 5: Loss 0.1637 | Val Fidelity 0.7115
+Epoch 6: Loss 0.1633 | Val Fidelity 0.7204
+Epoch 7: Loss 0.1638 | Val Fidelity 0.7524
+Epoch 8: Loss 0.1303 | Val Fidelity 0.9112
+Epoch 9: Loss 0.0821 | Val Fidelity 0.9143
+Epoch 10: Loss 0.0812 | Val Fidelity 0.9162
+Epoch 11: Loss 0.0815 | Val Fidelity 0.9159
+Epoch 12: Loss 0.0798 | Val Fidelity 0.9160
+Epoch 13: Loss 0.0787 | Val Fidelity 0.9163
+Epoch 14: Loss 0.0781 | Val Fidelity 0.9169
+Epoch 15: Loss 0.0778 | Val Fidelity 0.9172
+Epoch 16: Loss 0.0787 | Val Fidelity 0.9172
+Epoch 17: Loss 0.0785 | Val Fidelity 0.9178
+Epoch 18: Loss 0.0797 | Val Fidelity 0.9176
+Epoch 19: Loss 0.0781 | Val Fidelity 0.9164
+Epoch 20: Loss 0.0769 | Val Fidelity 0.9185
+Training Complete. Best Val Fidelity: 0.9185
+
+--- Running Final Evaluation on Test Set ---
+
+========================================
+FINAL TEST RESULTS
+========================================
+Mean Fidelity (Test Set):    0.9018
+Mean Trace Distance:         0.2295
+Inference Latency:           0.72 ms
+========================================
+
