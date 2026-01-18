@@ -1,5 +1,5 @@
 # Quantum State Reconstruction using Classical Shadows  
-### QCG × PaAC Open Project — Assignment 2 (Track 1)
+### QCG × PaAC Open Project - Assignment 2 (Track 1)
 
 ---
 
@@ -33,7 +33,7 @@ The main difficulty is that a density matrix cannot be treated like an arbitrary
 
 ---
 
-## Approach / Methodology
+## Approach
 
 The problem is addressed using a **Transformer-based neural network** following the **Classical Shadows** approach.
 
@@ -153,6 +153,7 @@ This project demonstrates that Transformer-based models can be effectively appli
 to quantum state reconstruction under the Classical Shadows framework. By enforcing
 physical constraints directly within the model design, the approach produces valid
 and accurate quantum state reconstructions with low inference latency.
+
 
 
 
