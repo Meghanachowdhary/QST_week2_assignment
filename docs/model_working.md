@@ -14,7 +14,7 @@ quantum state. A single measurement does not fully describe the state. However,
 when many such measurements are combined, it becomes possible to reconstruct
 the underlying density matrix.
 
-In this project, a Transformer-based neural network is used to learn this
+In this project, a Transformer based neural network is used to learn this
 reconstruction process directly from data.
 
 ---
@@ -22,14 +22,14 @@ reconstruction process directly from data.
 ## Model Architecture
 
 A **Transformer encoder** is used as the core model architecture. The
-Transformer is well-suited for this task because it can process long input
+Transformer is well suited for this task because it can process long input
 sequences and learn relationships between distant elements in the data.
 
 This is important for classical shadow data, where useful information may be
 distributed across many measurements obtained from different qubits and
 shadows.
 
-The self-attention mechanism allows the model to assign different importance
+The self attention mechanism allows the model to assign different importance
 to different measurements and combine them effectively to form a global
 representation of the quantum state.
 
@@ -53,7 +53,7 @@ that can be processed by the Transformer.
 ## Transformer Processing
 
 The embedded measurement sequence is passed through multiple Transformer
-encoder layers. Using self-attention, the model learns how different
+encoder layers. Using self attention, the model learns how different
 measurements are related to each other and how they jointly contribute to the
 reconstruction of the quantum state.
 
@@ -80,9 +80,8 @@ matrix.
 
 To ensure physical validity, the density matrix is constructed using:
 
-\[
-\rho = \frac{L L^\dagger}{\text{Tr}(L L^\dagger)}
-\]
+The density matrix is obtained by multiplying the lower triangular matrix `L` with its conjugate transpose and normalizing the result so that the trace equals one.
+
 
 This construction guarantees:
 
@@ -121,8 +120,9 @@ quality.
 
 ## Summary
 
-This project combines classical shadow measurements with a Transformer-based
+This project combines classical shadow measurements with a Transformer based
 deep learning model to perform quantum state reconstruction. By carefully
 designing the input representation, model architecture, and output constraints,
 the approach ensures both accurate reconstruction and strict physical validity
 of the predicted quantum states.
+
