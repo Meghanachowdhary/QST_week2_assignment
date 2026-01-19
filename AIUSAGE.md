@@ -1,8 +1,6 @@
 # AI Usage Disclosure
 
-This project was completed with limited support from AI-assisted tools. The use of
-AI is disclosed here to maintain transparency and follow the project’s AI
-attribution guidelines.
+AI assisted tools were used during the development of this project, and their use is disclosed here in accordance with the project’s AI attribution guidelines.
 
 ---
 
@@ -22,8 +20,8 @@ ChatGPT was used in a similar way to an online reference or discussion partner.
 It helped me understand ideas, but I always made sure I understood the solution
 before using or modifying it.
 
-All important decisions — including model design, mathematical formulation,
-training strategy, and evaluation — were made by me.
+All important decisions including model design, mathematical formulation,
+training strategy, and evaluation were made by me.
 
 No other AI tools (such as Claude or GitHub Copilot) were used in this project.
 
@@ -63,8 +61,7 @@ project:
 
 - *Can you help me write a simple AI usage disclosure file?*
 
-These prompts reflect the typical way AI was used — mainly for understanding,
-debugging, and documentation.
+These prompts show how I actually used AI during the project mostly when I was stuck, unsure about a concept, or needed help fixing code or writing things clearly.
 
 ---
 
@@ -91,3 +88,4 @@ the final submission.
 I confirm that AI tools were used responsibly and transparently, and that this
 project represents my own understanding, implementation, and verification of the
 methods used.
+
