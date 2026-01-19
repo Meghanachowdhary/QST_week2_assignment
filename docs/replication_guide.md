@@ -6,9 +6,7 @@ covers the environment setup, dataset generation, training, and evaluation.
 ---
 
 ## Step 1: Environment Setup
-
-The project was developed using Python (version 3.8 or later).
-
+The project was developed using Python 
 A virtual environment was used to manage dependencies. All required Python
 packages are listed in the `requirements.txt` file. Installing these
 dependencies ensures the project runs correctly.
@@ -28,7 +26,7 @@ Dataset generation happens automatically during training.
 
 ## Step 3: Model Training
 
-The model is trained using a Transformer-based architecture implemented in
+The model is trained using a Transformer based architecture implemented in
 `src/train.py`.
 
 During training, the model learns to reconstruct density matrices from
@@ -51,3 +49,4 @@ metrics are used to measure reconstruction accuracy and performance.
 
 By following the steps above, the full experimental setup of this project can be
 reproduced. Small variations in results may occur due to randomness.
+
