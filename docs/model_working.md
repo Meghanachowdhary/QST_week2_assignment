@@ -97,7 +97,7 @@ cannot produce physically invalid quantum states during training or inference.
 ## Training Procedure
 
 The model is trained using the **Frobenius norm** as the loss function. This
-loss measures the element-wise difference between the predicted and true
+loss measures the element wise difference between the predicted and true
 density matrices.
 
 Gradient-based optimization is used to minimize this loss over the training
@@ -107,16 +107,14 @@ dataset, encouraging accurate reconstruction of quantum states.
 
 ## Evaluation Metrics
 
-Model performance is evaluated using:
+Model performance is evaluated using the following metrics:
 
-- **Quantum Fidelity**, which measures similarity between predicted and true
-  quantum states
-- **Trace Distance**, which measures how distinguishable the two states are
+- **Quantum Fidelity**, which measures how close the predicted quantum state is to the true state.
+- **Trace Distance**, which measures how distinguishable the predicted and true quantum states are.
+- **Inference Latency**, which measures the time required to reconstruct a single quantum state during inference.
 
-These metrics provide a clear and interpretable assessment of reconstruction
-quality.
+Together, these metrics provide a clear assessment of both the reconstruction accuracy and the computational efficiency of the model.
 
----
 
 ## Summary
 
@@ -125,4 +123,5 @@ deep learning model to perform quantum state reconstruction. By carefully
 designing the input representation, model architecture, and output constraints,
 the approach ensures both accurate reconstruction and strict physical validity
 of the predicted quantum states.
+
 
